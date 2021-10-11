@@ -8,7 +8,7 @@ void setup(){
 void draw(){
   int sum = 0;
   background(255);
-   for (int y = 5; y <= 400; y = y + 60){
+   for (int y = 5; y <= 450; y = y + 60){
      for (int x = 5; x <= 450; x = x + 60){
        Dice bob = new Dice(x, y);
        bob.roll();
@@ -19,7 +19,7 @@ void draw(){
   //System.out.println(sum);
   textSize(25);
   fill(0);
-  text("Total: " + sum, 185, 450);
+  text("Total: " + sum, 185, 490);
 }
 
 void mousePressed()
