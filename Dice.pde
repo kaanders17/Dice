@@ -16,10 +16,10 @@ void draw(){
        bob.show();
      }
   }
-  System.out.println(sum);
+  //System.out.println(sum);
   textSize(25);
   fill(0);
-  text("Total: "+sum, 185, 450);
+  text("Total: " + sum, 185, 450);
 }
 
 void mousePressed()
